@@ -14,3 +14,86 @@ zmiana orientacji kopca – z maksymalizuj¹cego na minimalizuj¹cy; po tym poleceni
 q
 zakoñczenie programu
 Rozmiar ¿adnego nie przekroczy 65536 elementów.
+Wejœcie
+
+Na wejœciu pojawi siê ci¹g poleceñ w przedstawionym wy¿ej formacie. Ostatnim poleceniem bêdzie polecenie q.
+Wyjœcie
+
+Na wyjœciu nale¿y wypisaæ wynik poleceñ - i p.
+Przyk³ad
+
+Wejœcie
++ 1
++ 2
++ 3
++ 4
++ 5
++ 6
++ 7
++ 8
+p
+-
+-
+-
+-
+-
+-
+-
+-
+p
+r 8 1 2 3 4 5 6 7 8
+p
+-
+-
+-
+-
+-
+-
+-
+-
+p
+r 8 1 2 3 4 5 6 7 8
+s
+p
+-
+-
+-
+-
+-
+-
+-
+-
+p
+q
+
+
+Wyjœcie
+8 7 6 4 3 2 5 1 
+8
+7
+6
+5
+4
+3
+2
+1
+
+8 5 7 4 1 6 3 2 
+8
+7
+6
+5
+4
+3
+2
+1
+
+1 2 3 4 5 6 7 8 
+1
+2
+3
+4
+5
+6
+7
+8
