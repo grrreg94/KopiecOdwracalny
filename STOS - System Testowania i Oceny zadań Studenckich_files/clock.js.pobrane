@@ -1,0 +1,24 @@
+var clkH, clkM, clkS;
+function T2(v) { return v < 10 ? "0" + v : v.toString(); };
+function UT(e) {
+	clkS += 5;
+	if(clkS >= 60) {
+		clkS -= 60;
+		clkM++;
+		if(clkM >= 60) {
+			clkM -= 60;
+			clkH++;
+			if(clkH >= 24) clkH -= 24;
+			};
+		};
+	e.innerHTML = T2(clkH) + ":" + T2(clkM) + ":" + T2(clkS);
+	}
+function RunClock() {
+	var e = document.getElementById("ctime");
+	var base = e.innerHTML.toString().split(":");
+	var h, m, s;
+	clkH = parseInt(base[0], 10);
+	clkM = parseInt(base[1], 10);
+	clkS = parseInt(base[2], 10);
+	window.setInterval(function () { UT(e); }, 5000);
+	}
