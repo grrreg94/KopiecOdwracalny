@@ -1,0 +1,16 @@
+Kopiec odwracalny
+
+Zaimplementuj (samodzielnie) kopiec maksymalizuj¹cy i nastêpuj¹ce operacje na nim:
++ v
+dodanie do kopca liczby v
+-
+usuniêcie z kopca maksimum i wypisanie go na ekran
+p
+wypisanie wszystkich elementów z kopca w kolejnoœci, w jakiej znajduj¹ siê w tablicy
+r n v1 ...vn
+usuniêcie z kopca wszystkich elementów i wpisanie do niego n nowych, o wartoœciach v1 ...vn
+s
+zmiana orientacji kopca – z maksymalizuj¹cego na minimalizuj¹cy; po tym poleceniu - powinien zwracaæ najmniejszy element; drugie polecenie s powinno przywracaæ porz¹dek maksymalizuj¹cy
+q
+zakoñczenie programu
+Rozmiar ¿adnego nie przekroczy 65536 elementów.
